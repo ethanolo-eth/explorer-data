@@ -1,7 +1,58 @@
-name: DJIB
-categories:
-  - storage
-description: DJIB is the next generation Web3 storage
+name: Djib
+categories: [ Storage ]
+ecosystem: Parachain
+description: 'Next generation Web3 Storage'
+project_type: Storage
+product_launch_day: "2022-02-08"
+technology:
+  type: p2p
+  name: peer to peer
+  features:
+    - decentralized data storage
+    - parachain
+    - multi CDN provider
 links:
-  web: https://djib.io
+  web: https://djib.io/
+  twitter: https://twitter.com/DjibChain
+  blog: 
   github: https://github.com/Djib-io
+  docs: https://docs.djib.io/
+blockchain_features:
+  p2p: true
+  encryption: 
+  upgradability:
+    enabled: true
+    type: 
+  opensource: true
+  dissapearing_tx: 
+  frontend_anonymity: self-hosted
+  identity_integration:
+  connected_tx: 
+  revealed_recipient: 
+  revealed_sender: 
+  revealed_ammount: 
+  data_masking: P2P
+  asset_custody_type: non-custody
+licences: 
+privacy_policy:
+  defined: true
+team:
+  anonymous: true
+storage:
+  decentralized: true
+tracebility:
+  tracked_data: Chains activity
+  kyc: false
+  sign_in_type_requirments: wallets
+third_party_dependency: none
+compliance: none
+client_diversability: 
+  name: 
+  link: 
+default_privacy: false
+project_status:
+  live_status: true
+  version: Mainnet
+  testnet: false
+  mainnet: true
+
