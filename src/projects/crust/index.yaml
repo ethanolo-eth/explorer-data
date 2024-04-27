@@ -1,7 +1,57 @@
 name: Crust
-categories:
-  - storage
-description: Web3.0 Storage for the Metaverse
+categories: [ storage ]
+ecosystem: Multichain
+description: 'Web3.0 decentralized Storage'
+project_type: Storage
+product_launch_day: "2020-03-01"
+technology:
+  type: Zk rollup, blobs (EIP 4844)
+  name: 
+  features:
+    - storage
+    - wallet
+    - swaps
 links:
   web: https://crust.network
+  twitter: https://twitter.com/CrustNetwork
+  blog: https://medium.com/crustnetwork
   github: https://github.com/crustio
+  docs: https://wiki.crust.network/en
+blockchain_features:
+  p2p: 
+  encryption: zkproof
+  upgradability: EVM, ZKrollup
+    enabled: true
+    type: 
+  opensource: true
+  dissapearing_tx: true
+  frontend_anonymity: 
+  identity_integration:
+  connected_tx: false
+  revealed_recipient: false
+  revealed_sender: false
+  revealed_ammount: false
+  data_masking: 
+  asset_custody_type: non-custody
+licences: MIT License
+privacy_policy:
+  defined: false
+team:
+  anonymous: true
+storage:
+  decentralized: true
+tracebility:
+  tracked_data: Chains activity
+  kyc: false
+  sign_in_type_requirments: wallets
+third_party_dependency: none
+compliance: none
+client_diversability: 
+  name: Ethda SDK
+  link: https://github.com/crustio/ethda-blobs
+default_privacy: false
+project_status:
+  live_status: true
+  version: Mainnet
+  testnet: false
+  mainnet: true
