@@ -1,0 +1,51 @@
+id: irrigation.finance
+name: irrigation.finance
+categories:
+  - defi
+ecosystem: 
+  - ethereum   
+have_token: true
+tokens: 
+  - name: Water Token
+    symbol: $WATER
+    network: ethereum
+    contract_address: "0x251FAe8f687545BDD462Ba4FCDd7581051740463"
+description: Unlocking Flow. Unleashing Value by enabling users to redeploy locked-up capital and access cross-protocol debt/bond swaps with privacy, speed & compliance!
+technology:
+  type: zk
+  features:
+    - private
+links:
+  web: https://irrigation.finance/
+  github: https://github.com/IrrigationProtocol
+  docs: https://docs.irrigation.finance/irrigation-protocol
+  twitter: https://twitter.com/IrrigationProto
+  discord: https://discord.com/IrrigationProtocol
+
+blockchain_features:
+  opensource: true
+  asset_custody_type: non-custody
+ 
+privacy_policy: 
+  defined: false
+team:
+  anonymous: true   
+
+tracebility:
+  kyc: false
+  sign_in_type_requirments: wallet
+third_party_dependency: Pods, Price Oracle
+audits: 
+  - name: Halborn
+    link: https://objects.githubusercontent.com/github-production-repository-file-5c1aeb/590573389/12772023?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20241126%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241126T175356Z&X-Amz-Expires=300&X-Amz-Signature=adcf8ee6eae6e4b83d2aa8ec52187e98308bd9199a4b8336c706e819c5be10d3&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3Bfilename%3DIrrigation_Protocol_Smart_Contract_Security_Assessment_Report_Halborn_Final.pdf&response-content-type=application%2Fpdf
+    time: "2024-08-04"
+
+project_status: Testnet
+  live_status: 
+  mainnet: false
+  testnet: true
+
+usecases: 
+  - defi
+sunset: false
+project_phase: Beta
